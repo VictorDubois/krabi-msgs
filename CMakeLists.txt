@@ -15,11 +15,17 @@ add_message_files(
   servos_cmd.msg
 )
 
+add_service_files (
+  FILES
+  SetOdom.srv
+)
+
 generate_messages(
   DEPENDENCIES
   std_msgs
   geometry_msgs
 )
+
 
 catkin_package(
 )
