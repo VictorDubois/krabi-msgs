@@ -1,5 +1,6 @@
 float32 max_acceleration
 float32 max_speed
+float32 max_current
 float32 PID_P
 float32 PID_I
 float32 PID_D
