@@ -13,6 +13,7 @@ add_message_files(
   motors.msg
   odom_light.msg
   servos_cmd.msg
+  strat_movement.msg
 )
 
 add_service_files (
