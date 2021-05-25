@@ -1,0 +1,11 @@
+servo_cmd pavillons
+servo_cmd manche_a_air_arm
+servo_cmd phare_arm
+servo_cmd balloon_servo
+balloon_pump balloon_pump
+servo_cmd vacuum_servo_left
+vacuum_pump vacuum_pump_left
+servo_cmd vacuum_servo_middle
+vacuum_pump vacuum_pump_middle
+servo_cmd vacuum_servo_right
+vacuum_pump vacuum_pump_right

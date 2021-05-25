@@ -13,6 +13,10 @@ add_message_files(
   motors.msg
   odom_light.msg
   servos_cmd.msg
+  servo_cmd.msg
+  balloon_pump.msg
+  vacuum_pump.msg
+  actuators.msg
   strat_movement.msg
 )
 
