@@ -11,6 +11,7 @@ add_message_files(
   encoders.msg
   motors_cmd.msg
   motors.msg
+  motors_parameters.msg
   odom_light.msg
   servos_cmd.msg
   servo_cmd.msg

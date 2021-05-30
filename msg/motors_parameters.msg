@@ -1,0 +1,3 @@
+float32 max_current_left
+float32 max_current_right
+float32 max_current
