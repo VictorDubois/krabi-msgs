@@ -12,6 +12,7 @@ add_message_files(
   motors_cmd.msg
   motors.msg
   motors_parameters.msg
+  motors_distance_asserv.msg
   odom_light.msg
   servos_cmd.msg
   servo_cmd.msg

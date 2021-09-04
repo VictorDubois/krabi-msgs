@@ -1,0 +1,3 @@
+bool use_distance_asserv
+geometry_msgs/PoseStamped goal_pose
+float32 max_speed_at_arrival
