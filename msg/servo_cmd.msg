@@ -1,3 +1,3 @@
 bool enable
-uint8 speed
-uint8 angle
+uint16 speed
+uint16 angle
