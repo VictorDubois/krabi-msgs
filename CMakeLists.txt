@@ -21,6 +21,7 @@ add_message_files(
   vacuum_pump.msg
   actuators.msg
   strat_movement.msg
+  obstacles.msg
 )
 
 add_service_files (
