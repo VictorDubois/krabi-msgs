@@ -15,11 +15,13 @@ add_message_files(
   motors_distance_asserv.msg
   odom_light.msg
   odom_lighter.msg
+  main_debug.msg
   servos_cmd.msg
   servo_cmd.msg
   balloon_pump.msg
   vacuum_pump.msg
   actuators.msg
+  speed_limitations.msg
   strat_movement.msg
   obstacles.msg
 )
@@ -28,6 +30,7 @@ add_service_files (
   FILES
   SetOdom.srv
   motorsParams.srv
+  areWeThereYet.srv
 )
 
 generate_messages(

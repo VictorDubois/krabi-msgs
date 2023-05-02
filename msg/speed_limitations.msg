@@ -1,0 +1,12 @@
+Header header
+float32 linear_limit_by_angular_speed_cmd
+float32 linear_limit_by_obstacles
+float32 linear_limit_by_strat_mvnt
+float32 linear_limit_by_goal
+float32 linear_limit_by_disable_linear
+float32 current_linear
+float32 angular_limit_by_disable_angular
+float32 angular_limit_by_strat_mvnt
+float32 angular_limit_by_MAX_allowed
+float32 angular_cmd_by_neurons
+float32 current_angular
