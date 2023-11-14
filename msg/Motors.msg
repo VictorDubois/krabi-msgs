@@ -1,5 +1,5 @@
-Header header
-encoders encoders
+std_msgs/Header header
+Encoders encoders
 uint16 current_left
 uint16 current_right
 uint32 current_left_accumulated

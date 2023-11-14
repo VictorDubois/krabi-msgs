@@ -1,0 +1,13 @@
+ServoCmd arm_base_servo
+ServoCmd arm_mid_servo
+ServoCmd arm_suction_cup_servo
+ServoCmd pusher_servo
+VacuumPump arm_vacuum
+VacuumPump fake_statuette_vacuum
+ServoCmd additionnal_servo_1
+ServoCmd additionnal_servo_2
+ServoCmd additionnal_servo_3
+ServoCmd additionnal_servo_4
+VacuumPump additionnal_vacuum_1
+VacuumPump additionnal_vacuum_2
+int32 score

@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 uint32 reverse_gear # 0 = forward, 1 = backward, 2 = don't care
 float32 max_speed_at_arrival
 geometry_msgs/Twist max_speed

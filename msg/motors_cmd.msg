@@ -1,5 +1,0 @@
-bool enable_motors
-bool override_PWM
-int32 PWM_override_left
-int32 PWM_override_right
-bool reset_encoders

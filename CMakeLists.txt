@@ -13,31 +13,40 @@ find_package(std_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
-rosidl_generate_interfaces(${PROJECT_NAME}
+set(msg_files
   "msg/Encoders.msg"
-  "msg/motors_cmd.msg"
-  "msg/motors.msg"
-  "msg/motors_parameters.msg"
-  "msg/motors_distance_asserv.msg"
-  "msg/odom_light.msg"
-  "msg/odom_lighter.msg"
-  "msg/main_debug.msg"
-  "msg/servos_cmd.msg"
-  "msg/servo_cmd.msg"
-  "msg/balloon_pump.msg"
-  "msg/vacuum_pump.msg"
-  "msg/actuators.msg"
-  "msg/speed_limitations.msg"
-  "msg/strat_movement.msg"
-  "msg/obstacles.msg"
+  "msg/MotorsCmd.msg"
+  "msg/Motors.msg"
+  "msg/MotorsParameters.msg"
+  "msg/MotorsDistanceAsserv.msg"
+  "msg/OdomLight.msg"
+  "msg/OdomLighter.msg"
+  "msg/MainDebug.msg"
+  "msg/ServosCmd.msg"
+  "msg/ServoCmd.msg"
+  "msg/BalloonPump.msg"
+  "msg/VacuumPump.msg"
+  "msg/Actuators.msg"
+  "msg/SpeedLimitations.msg"
+  "msg/StratMovement.msg"
+  "msg/Obstacles.msg"
   "srv/SetOdom.srv"
-  "srv/motorsParams.srv"
-  "srv/areWeThereYet.srv"
-  DEPENDENCIES
-  std_msgs
-  geometry_msgs
+)
+set(srv_files
+"srv/MotorsParams.srv"
+"srv/AreWeThereYet.srv"
 )
 
+rosidl_generate_interfaces(${PROJECT_NAME}
+${msg_files}
+${srv_files}
+DEPENDENCIES
+builtin_interfaces
+std_msgs
+geometry_msgs
+)
+
+ament_export_dependencies(rosidl_default_runtime)
 
 ament_package()
 
