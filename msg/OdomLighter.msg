@@ -1,6 +1,6 @@
 std_msgs/Header header
-float32 pose_x
-float32 pose_y
-float32 angle_rz
-float32 speed_vx
-float32 speed_wz
+float32 pose_x # in m
+float32 pose_y # in m
+float32 angle_rz # in rad
+float32 speed_vx # in m/s
+float32 speed_wz # in rad/s

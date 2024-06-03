@@ -1,2 +1,2 @@
 bool enable_pump
-bool release
+bool release # open the valve, to release the object held
