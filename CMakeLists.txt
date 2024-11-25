@@ -30,6 +30,9 @@ set(msg_files
   "msg/SpeedLimitations.msg"
   "msg/StratMovement.msg"
   "msg/Obstacles.msg"
+  "msg/Stepper.msg"
+  "msg/InfosStepper.msg"
+  "msg/Actuators2025.msg"
   "srv/SetOdom.srv"
 )
 set(srv_files
