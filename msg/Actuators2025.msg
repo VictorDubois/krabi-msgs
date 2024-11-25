@@ -1,0 +1,13 @@
+ServoCmd servo_1
+ServoCmd servo_2
+ServoCmd servo_3
+ServoCmd servo_4
+ServoCmd servo_5
+ServoCmd servo_6
+ServoCmd servo_7
+ServoCmd servo_8
+VacuumPump vacuum_1
+VacuumPump vacuum_2
+Stepper stepper_1
+Stepper stepper_2
+int32 score
