@@ -1,0 +1,6 @@
+uint8 hardware_error_status
+int16 current_position
+uint8 present_temperature
+uint16 present_current
+uint8 moving
+uint8 mode

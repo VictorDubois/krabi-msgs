@@ -14,6 +14,8 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
 set(msg_files
+  "msg/AX12Cmd.msg"
+  "msg/AX12Info.msg"
   "msg/Encoders.msg"
   "msg/MotorsCmd.msg"
   "msg/Motors.msg"

@@ -10,4 +10,8 @@ VacuumPump vacuum_1
 VacuumPump vacuum_2
 Stepper stepper_1
 Stepper stepper_2
+AX12Cmd ax12_1
+AX12Cmd ax12_2
+AX12Cmd ax12_3
+AX12Cmd ax12_4
 int32 score
