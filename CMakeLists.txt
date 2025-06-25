@@ -19,6 +19,7 @@ set(msg_files
   "msg/Encoders.msg"
   "msg/MotorsCmd.msg"
   "msg/Motors.msg"
+  "msg/MotorsCurrent.msg"
   "msg/MotorsParameters.msg"
   "msg/MotorsDistanceAsserv.msg"
   "msg/OdomLight.msg"
