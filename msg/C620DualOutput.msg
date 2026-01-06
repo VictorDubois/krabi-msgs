@@ -1,0 +1,2 @@
+C620Output right_motor
+C620Output left_motor
