@@ -1,0 +1,4 @@
+bool leftmost_is_our_side_up
+bool leftcenter_is_our_side_up
+bool rightcenter_is_our_side_up
+bool rightmost_is_our_side_up

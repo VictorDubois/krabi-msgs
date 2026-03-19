@@ -38,6 +38,7 @@ set(msg_files
   "msg/Stepper.msg"
   "msg/InfosStepper.msg"
   "msg/Actuators2025.msg"
+  "msg/CaissesSides.msg"
   "srv/SetOdom.srv"
 )
 set(srv_files
