@@ -8,6 +8,8 @@ ServoCmd servo_7
 ServoCmd servo_8
 VacuumPump vacuum_1
 VacuumPump vacuum_2
+VacuumPump vacuum_3
+VacuumPump vacuum_4
 Stepper stepper_1
 Stepper stepper_2
 AX12Cmd ax12_1
