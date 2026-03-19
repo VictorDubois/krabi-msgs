@@ -15,6 +15,8 @@ find_package(geometry_msgs REQUIRED)
 
 set(msg_files
   "msg/AX12Cmd.msg"
+  "msg/C620DualOutput.msg"
+  "msg/C620Output.msg"
   "msg/AX12Info.msg"
   "msg/Encoders.msg"
   "msg/MotorsCmd.msg"
