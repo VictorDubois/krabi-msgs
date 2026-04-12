@@ -27,6 +27,7 @@ set(msg_files
   "msg/OdomLight.msg"
   "msg/OdomLighter.msg"
   "msg/MainDebug.msg"
+  "msg/MotionDebug.msg"
   "msg/ServosCmd.msg"
   "msg/ServoCmd.msg"
   "msg/BalloonPump.msg"
