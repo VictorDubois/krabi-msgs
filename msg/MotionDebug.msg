@@ -4,11 +4,11 @@ std_msgs/Header header
 float32 time_to_stop            # seconds until stop at current decel
 float32 distance_to_stop        # meters needed to stop
 
-uint8 speed_mode                # current speed control decision
 uint8 DECELERATE=0
 uint8 EMERGENCY_BRAKE=1
 uint8 ACCELERATE=2
 uint8 CRUISE=3
+uint8 speed_mode                # current speed control decision
 
 float32 new_speed_order         # unconstrained speed before clipping (m/s)
 
