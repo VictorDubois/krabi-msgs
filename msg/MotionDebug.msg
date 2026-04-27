@@ -8,6 +8,7 @@ uint8 DECELERATE=0
 uint8 EMERGENCY_BRAKE=1
 uint8 ACCELERATE=2
 uint8 CRUISE=3
+uint8 FINE_TUNING=4
 uint8 speed_mode                # current speed control decision
 
 float32 new_speed_order         # unconstrained speed before clipping (m/s)
@@ -35,3 +36,10 @@ bool stopped_by_goalstrat
 float32 distance_to_goal        # remaining distance to goal (m)
 float32 delta_orientation       # angular error to goal heading (rad)
 float32 desired_final_speed     # max_speed_at_arrival from strat params (m/s)
+
+# Fine-tuning position mode
+bool fine_tuning_linear         # true when within 2 cm of goal (rotation frozen)
+bool braking                    # true when brake() was called this cycle
+float32 pid_position_error      # signed projected distance to goal (m)
+float32 pid_position_integral   # accumulated PID integral term (m·s)
+float32 pid_position_output     # PID output after MAX_SPEED clamp, before inhibition (m/s)
