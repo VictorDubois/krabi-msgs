@@ -23,6 +23,7 @@ set(msg_files
   "msg/Motors.msg"
   "msg/MotorsCurrent.msg"
   "msg/MotorsParameters.msg"
+  "msg/MotorsPidSet.msg"
   "msg/MotorsDistanceAsserv.msg"
   "msg/OdomLight.msg"
   "msg/OdomLighter.msg"
