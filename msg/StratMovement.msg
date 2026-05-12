@@ -18,3 +18,5 @@ uint32 orient # See above
 
 string endpoint_frame_id # frame of the robot that must go to goal_pose's position. Used for catching glasses. By default "base_link"
 geometry_msgs/PoseStamped goal_pose
+
+bool reset_odometry
