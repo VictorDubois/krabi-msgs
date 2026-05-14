@@ -46,6 +46,7 @@ set(msg_files
 set(srv_files
 "srv/MotorsParams.srv"
 "srv/AreWeThereYet.srv"
+"srv/GrabFlipDrop.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

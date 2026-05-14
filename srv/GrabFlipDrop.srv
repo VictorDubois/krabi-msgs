@@ -1,0 +1,6 @@
+bool leftmost_flip
+bool leftcenter_flip
+bool rightcenter_flip
+bool rightmost_flip
+---
+bool success
