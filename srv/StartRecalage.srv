@@ -1,0 +1,6 @@
+# Lance le recalage depuis une zone (voir le topic recalage_zones).
+# success = demande acceptée ; le résultat est ensuite publié sur pre_match_state.
+string zone     # nom de la zone, vide = zone par défaut
+---
+bool success
+string message

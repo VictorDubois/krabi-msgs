@@ -1,0 +1,11 @@
+# Corrige la pose du robot dans le repère map, en modifiant uniquement map -> odom.
+# Seuls les champs dont le flag set_* est vrai sont remplacés, les autres sont conservés.
+float32 x       # [m]   position x de base_link dans map
+float32 y       # [m]   position y de base_link dans map
+float32 theta   # [rad] cap de base_link dans map
+bool set_x
+bool set_y
+bool set_theta
+---
+bool success
+string message

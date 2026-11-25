@@ -41,12 +41,16 @@ set(msg_files
   "msg/InfosStepper.msg"
   "msg/Actuators2025.msg"
   "msg/CaissesSides.msg"
+  "msg/RecalageZone.msg"
+  "msg/RecalageZones.msg"
   "srv/SetOdom.srv"
 )
 set(srv_files
 "srv/MotorsParams.srv"
 "srv/AreWeThereYet.srv"
 "srv/GrabFlipDrop.srv"
+"srv/CorrectPose.srv"
+"srv/StartRecalage.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
